@@ -31,3 +31,30 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  text-decoration: none;
+  li {
+    list-style: none;
+  }
+}
+
+input {
+  width:300px;
+  height: 30px;
+}
+
+button {
+  width:120px;
+  height: 30px;
+  background-color:#999;
+  border: none;
+  outline:none;
+  margin: 0rem 1rem;
+  cursor: pointer; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: content-box;
+}

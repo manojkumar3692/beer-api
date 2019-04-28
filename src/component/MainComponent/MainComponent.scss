@@ -1,0 +1,55 @@
+.beerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.beerList {
+    margin: 1rem;
+    flex-grow: 1;
+    width: 30%;
+    padding: 20px 10px;
+    box-shadow: 1px 0px 2px 1px #ded7d7;
+    border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 3px 0px 5px 5px #ded7d7;
+        transform: scale(1.01);
+        transition: 0.5s linear;
+    }
+}
+
+.beerImage {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    img {
+        height: 100px;
+    }
+}
+
+.beerDetails {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    position: relative;
+    i {
+        position: absolute;
+        right: 0;
+        top: -12px;
+        font-size: 18px;
+    }
+    h1 {
+        margin: 0;
+        font-size: 18px;
+    }
+    p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+.active {
+    color: red;
+}

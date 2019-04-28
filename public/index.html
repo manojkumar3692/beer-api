@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -34,5 +42,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: 'AIzaSyCT1OjMNIpYUVkMDIHD2WYN5N7Rtp8BKtM',
+        authDomain: 'beer-frontend.firebaseapp.com',
+        databaseURL: 'https://beer-frontend.firebaseio.com',
+        projectId: 'beer-frontend',
+        storageBucket: 'beer-frontend.appspot.com',
+        messagingSenderId: '73528736328',
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>

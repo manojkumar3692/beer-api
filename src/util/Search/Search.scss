@@ -1,0 +1,20 @@
+.search {
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0rem;
+    input {
+        width:70%;
+        border: 1px solid #999;
+        height: 40px;
+        outline: none;
+        padding: 0px 10px;
+    }
+    button {
+        height: 43px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: #58b1a9;
+    }
+}
